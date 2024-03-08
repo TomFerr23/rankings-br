@@ -24,7 +24,7 @@ body, html {
     color: #ffffff;
     border-bottom: 1px solid #ffffff;
     padding: 10px 40px;
-    height: 108px;
+    height: 150px !important;
 }
 
 .header-container {
@@ -67,7 +67,7 @@ nav li {
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
-        height: auto; /* Allow the header to grow as needed on smaller screens */
+        height: 300px !important; /* Allow the header to grow as needed on smaller screens */
     }
 
     .header-container {
